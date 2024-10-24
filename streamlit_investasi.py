@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Baca data dari file Excel
-file_path = '/Users/macbookair/Desktop/Virtual Pyhton/Data Izin DPMPTSP.xlsx'
+file_path = 'D:\Penyimpanan Utama\Documents\Skilvul\Python Dasar\Data Izin DPMPTSP.xlsx'
 sheet_name = 'Data Izin All'
 df = pd.read_excel(file_path, sheet_name=sheet_name)
 
